@@ -32,7 +32,7 @@ async function getBotReply(text) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer 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`
+      "Authorization": `Bearer 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`
     },
     body: JSON.stringify({
       model: "gpt-4",
@@ -51,7 +51,7 @@ async function generateImage(promptText) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer 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`
+      "Authorization": `Bearer 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`
     },
     body: JSON.stringify({
       prompt: promptText,
