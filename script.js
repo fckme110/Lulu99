@@ -32,7 +32,7 @@ async function getBotReply(text) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer YOUR_OPENAI_API_KEY`
+      "Authorization": `Bearer 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`
     },
     body: JSON.stringify({
       model: "gpt-4",
@@ -51,7 +51,7 @@ async function generateImage(promptText) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer YOUR_OPENAI_API_KEY`
+      "Authorization": `Bearer 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`
     },
     body: JSON.stringify({
       prompt: promptText,
